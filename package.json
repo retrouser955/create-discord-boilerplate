@@ -1,10 +1,10 @@
 {
   "name": "create-discord-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easily create a discord.js v13 boilerplate code",
   "main": "bin/index.js",
   "bin": {
-    "create-discord-app": "bin/index.js"
+    "create-discord-boilerplate": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Successful test!\""
@@ -16,6 +16,11 @@
   "author": "retro_ig",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^5.0.1",
     "yargs": "^17.5.1"
-  }
+  },
+  "repository": {
+    "url": "https://github.com/retrouser955/create-discord-app"
+  },
+  "homepage": "https://github.com/retrouser955/create-discord-app#readme"
 }
