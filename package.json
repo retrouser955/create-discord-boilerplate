@@ -7,7 +7,7 @@
     "create-discord-app": "bin/index.js"
   },
   "scripts": {
-    "test": "create-discord-app -i \"myApp\""
+    "test": "Successful test!"
   },
   "keywords": [
     "discord",
