@@ -1,5 +1,5 @@
 {
-  "name": "create-discord-app",
+  "name": "create-discord-boilerplate",
   "version": "0.0.1",
   "description": "Easily create a discord.js v13 boilerplate code",
   "main": "bin/index.js",
