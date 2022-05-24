@@ -1,0 +1,21 @@
+{
+  "name": "create-discord-app",
+  "version": "0.0.1",
+  "description": "Easily create a discord.js v13 boilerplate code",
+  "main": "bin/index.js",
+  "bin": {
+    "create-discord-app": "bin/index.js"
+  },
+  "scripts": {
+    "test": "create-discord-app -i \"myApp\""
+  },
+  "keywords": [
+    "discord",
+    "boilerplate"
+  ],
+  "author": "retro_ig",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
+}
