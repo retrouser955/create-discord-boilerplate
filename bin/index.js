@@ -105,7 +105,7 @@ module.exports = {
 }
 `
 fs.mkdirSync(`${process.cwd()}/${yargs.argv.d}/commands`)
-fs.writeFileSync(`${process.cwd()}/${yargs.argv.d}/comands/ping.js`, pingCmdCode)
+fs.writeFileSync(`${process.cwd()}/${yargs.argv.d}/commands/ping.js`, pingCmdCode)
 console.clear()
 console.log(`Created file: ${process.cwd()}/${yargs.argv.d}/commands/ping.js`)
 console.log(`Installing discord.js, discord-api-types and @discordjs/rest`)

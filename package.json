@@ -1,6 +1,6 @@
 {
   "name": "create-discord-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily create a discord.js v13 boilerplate code",
   "main": "bin/index.js",
   "bin": {
@@ -16,7 +16,9 @@
   "author": "retro_ig",
   "license": "MIT",
   "dependencies": {
+    "boxen": "^7.0.0",
     "chalk": "^4.1.2",
+    "node-fetch": "^3.2.10",
     "yargs": "^17.5.1"
   },
   "repository": {
